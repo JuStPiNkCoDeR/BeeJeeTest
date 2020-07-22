@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 3px solid black;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+
+    padding: 10px 15px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+
+    margin: 7px 0 7px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    margin-top: 15px;
+
+    cursor: pointer;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+
+    color: blue;
+}
+
+.taskBlock {
+    position: relative;
+
+    border: 1px solid black;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+
+    text-align: center;
+
+    padding: 0 5px 7px;
+    margin-top: 50px;
+}
+
+.taskBlock p {
+    font-weight: 500;
+}
+
+.taskBlock form {
+    border: none;
+
+    justify-content: center;
+}
+
+.taskBlock .completed {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+
+    width: 5px;
+    height: 5px;
+
+    color: green;
+}
+
+.taskBlock .edited {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+
+    width: 5px;
+    height: 5px;
+
+    color: red;
+}
+
+.paginationBlock {
+    font-weight: 700;
+
+    margin-top: 30px;
+}
