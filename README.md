@@ -1,4 +1,4 @@
-To run application simply execute `docker-compose up -d`
+To deploy application simply execute `docker-compose up -d`
 
 Admin credentials:
 - admin:123
